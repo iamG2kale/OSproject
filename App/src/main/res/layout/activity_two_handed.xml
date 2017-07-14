@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:paddingBottom="@dimen/activity_vertical_margin"
+android:paddingLeft="@dimen/activity_horizontal_margin"
+android:paddingRight="@dimen/activity_horizontal_margin"
+android:paddingTop="@dimen/activity_vertical_margin"
+android:orientation="vertical"
+tools:context="rohit.osproject.TwoHanded">
+
+<TextView
+    android:textStyle="bold"
+    android:textColor="@android:color/holo_red_light"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Enter length of page reference sequence: "/>
+
+<EditText
+    android:id="@+id/edt_len"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    />
+
+<TextView
+    android:textStyle="bold"
+    android:textColor="@android:color/holo_red_light"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Enter the page reference sequence: "/>
+
+<EditText
+    android:id="@+id/edt_seq"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    />
+<TextView
+    android:textStyle="bold"
+    android:textColor="@android:color/holo_red_light"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Enter number of frames: "/>
+
+<EditText
+    android:id="@+id/edt_frames"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    />
+
+<Button
+    android:id="@+id/btn_submit"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textColor="@android:color/white"
+    android:layout_marginBottom="5dp"
+    android:background="@android:color/holo_green_dark"
+    android:text="Run Program"/>
+    <Button
+        android:id="@+id/simulation"
+        android:layout_gravity="bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:textColor="@android:color/white"
+        android:background="@android:color/holo_green_dark"
+        android:text="Simulation"/>
+    <Button
+        android:id="@+id/btn_code"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:background="@android:color/holo_green_dark"
+        android:layout_margin="5dp"
+        android:text="Code"/>
+    <Button
+        android:id="@+id/btn_explain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:background="@android:color/holo_green_dark"
+        android:layout_margin="5dp"
+        android:text="Explanation"/>
+    <Button
+        android:id="@+id/btn_about"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:background="@android:color/holo_green_dark"
+        android:layout_margin="5dp"
+        android:text="About us"/>
+
+
+</LinearLayout>
